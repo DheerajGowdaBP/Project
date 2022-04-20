@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url("https://previews.123rf.com/images/oakozhan/oakozhan1908/oakozhan190800015/128330804-red-letters-q-a-questions-and-answers-on-grey-background-three-dimensional-rendering-3d-illustration.jpg");
+    background-image: no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    box-shadow: 0 16px 26px black;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.container h2 {
+    color: white;
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+input {
+    width: 60%;
+    padding: 0.8rem;
+    border-radius: 20px;
+    border: none;
+
+}
+
+button {
+    width: 20%;
+    padding: 0.6rem;
+    background-color: aqua;
+    border: none;
+    border-radius: 12px;
+    color: grey;
+
+
+}

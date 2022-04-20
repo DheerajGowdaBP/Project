@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url("https://previews.123rf.com/images/oakozhan/oakozhan1908/oakozhan190800015/128330804-red-letters-q-a-questions-and-answers-on-grey-background-three-dimensional-rendering-3d-illustration.jpg");
+    background-image: no-repeat center center fixed;
+    background-size: cover;
+}
+
+.tweeet-body {
+    width: 82%;
+    margin-left: 60px;
+}
+
+.tweet-body textarea {
+    overflow: hidden;
+    resize: none;
+    margin-top: 200px;
+    margin-left: 200px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 7px;
+}
+
+.nav-area li {
+    display: inline-block;
+}
+
+.nav-area li a {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.nav-area li a:hover {
+    background: transparent;
+    color: rgb(8, 8, 8);
+    border-bottom: 4px solid rgb(10, 10, 10);
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    padding: 0.6rem;
+    background-color: #0c0b0b;
+    border: none;
+    border-radius: 6px;
+    color: rgb(7, 7, 7);
+}
+
+button a {
+    font-size: 1rem;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+}
+
+button hover {
+    background: transparent;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+}
+
+.button__teach {
+    position: relative;
+    color: rgb(5, 5, 5);
+    letter-spacing: 4px;
+    font-weight: 600;
+    background-color: transparent;
+    padding: 10px 20px;
+    text-decoration: none;
+    z-index: 10;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 14%;
+}
+
+.button__teach:hover {
+    color: rgb(3, 3, 3);
+}
+
+@keyframes flash {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
